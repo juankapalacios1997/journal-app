@@ -1,0 +1,14 @@
+@use "sass:map";
+
+.entry-container {
+    border-bottom: 1px solid map.get($theme-colors, 'primary' );
+    transition: 0.2s all ease-in;
+    &:hover {
+        background-color: lighten($color: $entry-border-hover, $amount: 55);
+    }
+}
+
+.button-label {
+    margin-right: 6px;
+    font-weight: 600;
+}

@@ -1,0 +1,24 @@
+$theme-colors: (
+    "primary": #05192e,
+    "secondary": #41b883,
+    "success": #198754,
+    "info": #0dcaf0,
+    "warning": #ffc107,
+    "danger": #dc3545,
+    "light": #f8f9fa,
+    "dark": #343a40
+);
+
+$scrollbar-hover: #219863;
+$entry-border-hover: #45596e;
+
+.pointer {
+    cursor: pointer
+}
+
+
+@import 'EntryList.scss';
+@import 'EntryView.scss';
+@import 'Entry.scss';
+@import 'NoEntrySelected.scss';
+@import 'node_modules/bootstrap/scss/bootstrap.scss';
