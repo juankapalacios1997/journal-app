@@ -1,6 +1,6 @@
-import * as actions from './state'
-import * as getters from './state'
-import * as mutations from './state'
+import * as actions from './actions'
+import * as getters from './getters'
+import * as mutations from './mutations'
 import state from './state'
 
 const journalModule = {

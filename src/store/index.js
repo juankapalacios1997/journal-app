@@ -3,8 +3,9 @@ import journalModule from '@/modules/daybook/store/journal/index'
 
 
 const store = createStore({
+    namespaced: true,
     modules: {
-        journalModule
+        journal: journalModule
     }
 })
 
