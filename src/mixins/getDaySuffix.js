@@ -4,7 +4,6 @@ const getDaySuffix =  {
             let suffix
             if (day % 10 === 1) {
                 suffix = 'st'
-                console.log(typeof day)
             } else if (day % 10 === 2) {
                 suffix = 'nd'
             } else if (day % 10 === 3) {
